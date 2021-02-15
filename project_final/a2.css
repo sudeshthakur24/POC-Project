@@ -1,0 +1,126 @@
+body{
+	background-color: rgb(242, 247, 244);
+}
+
+
+[name="home_accesories"]
+{
+	/*background-color: rgb(168, 121, 219);*/
+	padding-left: 50px;
+}
+
+[name="home_"]
+{
+	font-family: "proxima nova";
+	font-weight: 600;
+	font-size: 14pt;
+	background-color: rgb(255, 255, 255);
+}
+[name="col1"]
+{
+	
+	height: 310px;
+	width: 260px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 55px;
+	background-color: rgb(255, 255, 255);
+	
+
+}
+
+[name="jumbo1"]
+{
+	height: 310px;
+	width: 800px;
+	margin-top: 20px;
+	background-color: rgba(45,144,229,255);
+	float: right;
+}
+
+
+
+
+[name="left_panel"]
+{
+ 
+	width: 260px;
+	/*background-color: rgb(168, 121, 219);*/
+	float: left;
+	margin-top: 24px;
+	margin-left: 55px;
+
+
+}
+
+
+[name="right_panel"]
+{
+	/*height: 50px;*/
+	width: 800px;
+	margin-top: 24px;
+	/*background-color: rgb(242, 237, 237);*/
+	float: right;
+	/*padding-top: 20px;*/
+	
+
+}
+
+
+
+.pagination a {
+  color: black;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+.pagination a.active{
+    background-color: black;
+    color: white;
+}
+.pagination a:hover:not(.active) 
+{
+	background-color: grey;
+}
+
+[name="col1"] p:hover {
+	background-color: #828282;
+}
+
+[name="col31"] p:hover {
+	background-color: #828282;
+}
+
+[name="col33"] p:hover {
+	background-color: #828282;
+}
+
+[name="col34"]:hover {
+	background-color: #828282;
+}
+.row .column p:hover{
+	color: blue;
+}
+[name="shop_now"]:hover{
+	background-color: blue;
+}
+
+[name="logo_"] img:hover{
+	background-color: #7291ba;
+}
+
+h4:hover{
+	color: dodgerblue;
+}
+
+.circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.circle:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
