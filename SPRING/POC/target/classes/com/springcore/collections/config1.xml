@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+ 	http://www.springframework.org/schema/beans/spring-beans.xsd
+ 	http://www.springframework.org/schema/context
+ 	http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean class="com.springcore.collections.Demo2" name="program1">
+		<property name="name" value="XYZ"/>
+		<property name="phone">
+			<list>
+				<value>76343483</value>
+				<value>49352738</value>
+				<value>24648922</value>
+				<value>76343483</value>
+			</list>
+		</property>
+		<property name="address">
+			<set>
+				<value>DELHI</value>
+				<value>JSR</value>
+				<value>RANCHI</value>
+				<value>KOLKATA</value>
+			</set>
+		</property>
+		<property name="courses">
+			<map>
+				<entry key="JAVA" value="1month"/>
+				<entry key="PYTHON" value="2months"/>
+				<entry key="C" value="1.5months"/>
+				<entry key="Spring" value="4months"/>
+				
+			</map>
+		</property>
+	</bean>
+
+</beans>	

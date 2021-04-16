@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+ 	http://www.springframework.org/schema/beans/spring-beans.xsd
+ 	http://www.springframework.org/schema/context
+ 	http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean class="com.xpanxion.freashers.POC.Demo" name="program1">
+		<property name="id">
+			<value>5001</value>
+		</property>
+		<property name="name">
+			<value>RAM</value>
+		</property>
+		<property name="address">
+			<value>JSR</value>
+		</property>
+
+	</bean>
+	<!-- Using value as attribute -->
+	<bean class="com.xpanxion.freashers.POC.Demo" name="program2">
+		<property name="id" value="8982">
+		</property>
+		<property name="name" value="SUDESH"></property>
+		<property name="address" value="DELHI"></property>
+	</bean>
+	<!-- using p schema for inserting values -->
+	<bean class="com.xpanxion.freashers.POC.Demo" name="program3" p:id="3908" p:name="SUDDU" p:address="LONDON"/>
+	
+</beans>
