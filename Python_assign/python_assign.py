@@ -4,7 +4,7 @@ from marshmallow import fields
 from marshmallow_sqlalchemy import ModelSchema
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:@localhost:5500/product'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:@localhost:3306/product'
 db = SQLAlchemy(app)
 
 
